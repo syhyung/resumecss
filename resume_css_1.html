@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이력서</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            margin-bottom: 20px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            border: 2px solid #333;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 2px solid #333;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .photo-area {
+            width: 100px;
+            height: 130px;
+            border: 1px solid black;
+            margin: 0 auto;
+            overflow: hidden; 
+        }
+
+        .photo-area img {
+            display: block; 
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .highlight-green {
+            background-color: #d9f7be;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .highlight-orange {
+            background-color: #ffe7ba;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .highlight-pink {
+            background-color: #ffd6e7;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .highlight-blue {
+            background-color: #bae7ff;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>이 력 서</h1>
+
+    <h2>1. 기본 자료</h2>
+    <table>
+        <tr>
+            <td rowspan="4" class="center photo-area">
+                <img src="./img/me.jpg" alt="프로필 사진"> </td>
+            <th style="width: 80px;">성 명</th>
+            <td>형서윤</td>
+            <th style="width: 100px;">학번</th>
+            <td>2502110413</td>
+        </tr>
+        <tr>
+            <th>E-mail</th>
+            <td colspan="3">hyungkyle@gmail.com</td>
+        </tr>
+        <tr>
+            <th>전화번호</th>
+            <td>010 - 8850 - 6439</td>
+            <th>휴대전화</th>
+            <td>010 - 8850 - 6439</td>
+        </tr>
+        <tr>
+            <th>주 소</th>
+            <td colspan="3">수원시 장안구</td>
+        </tr>
+    </table>
+
+    <h2>2. 학력 사항</h2>
+    <table>
+        <tr>
+            <th style="width: 15%;">년 / 월</th>
+            <th style="width: 40%;">학교명</th>
+            <th style="width: 45%;">학과</th>
+        </tr>
+        <tr>
+            <td>2025년 3월</td>
+            <td>한국폴리텍대학교(2) 인천캠퍼스</td>
+            <td>AI융합소프트웨어</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <h2>3. 경력 사항</h2>
+    <table>
+        <tr>
+            <th style="width: 15%;">년 / 월</th>
+            <th style="width: 25%;">회사명</th>
+            <th style="width: 20%;">직위 / 직책</th>
+            <th style="width: 40%;">주요 업무</th>
+        </tr>
+        <tr>
+            <td>2024년 10월</td>
+            <td>유티정보</td>
+            <td>사원</td>
+            <td>고등학생 신분이라 가르쳐주는거 습득, 프로그래밍</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <h2>4. 신상 자료</h2>
+    <table>
+        <tr>
+            <th style="width: 15%;">취미</th>
+            <td style="width: 35%;">농구,게임,컴퓨터 가지고 놀기</td>
+            <th style="width: 15%;">결혼여부</th>
+            <td style="width: 35%;">미혼</td>
+        </tr>
+        <tr>
+            <th>신 장</th>
+            <td>175cm</td>
+            <th>체 중</th>
+            <td>80kg</td>
+        </tr>
+        <tr>
+            <th>혈 액 형</th>
+            <td>O형</td>
+            <th>특 기</th>
+            <td colspan="3">분위기를 밝게 만들기,농구</td>
+        </tr>
+    </table>
+
+    <h2>5. 병역 사항</h2>
+    <table>
+        <tr>
+            <th style="width: 20%;">구 분</th>
+            <th style="width: 30%;">계 급</th>
+            <th style="width: 30%;">입대/전역 시기</th>
+            <th style="width: 20%;">사 유</th>
+        </tr>
+        <tr>
+            <td>공익</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <h2>6. 자기소개</h2>
+    <table>
+        <tr>
+            <td style="height: 250px; padding: 15px; line-height: 1.6;">
+                안녕하세요. 저는 새로운 기술을 배우는 것을 좋아하고, 맡은 일에 책임감을 가지고 임하는 형서윤입니다.
+                <br><br>
+    
+                어릴 적부터 <span class="highlight-green">컴퓨터 프로그래머이신 아버지의 영향을 받아</span> 자연스럽게 컴퓨터에 흥미를 가지게 되었고,
+                중학교 2학년, <span class="highlight-green">코로나로 인해 집에 머무는 시간이 많아지면서 본격적으로 코딩 공부를 시작</span>하게 되었습니다.
+                <span class="highlight-green">고등학교와 대학교 모두 융합소프트웨어과</span>를 선택했습니다. 그만큼 저는 또래 친구들보다 더 많은 시간과 노력을 들여 
+                코딩에 집중해왔다고 자신 있게 말씀드릴 수 있습니다.
+                <br><br>
+    
+                고등학교 시절에는 <span class="highlight-orange">게임 개발 경진대회에 참가한 경험</span>도 있으며, 비록 수상하지는 못했지만 소중한 경험과 배움을 얻었습니다.
+                <br><br>
+    
+                저는 <span class="highlight-pink">긍정적인 사고방식과 활기찬 에너지</span>로 주변 사람들에게 밝은 분위기를 전할 수 있는 사람입니다. 다만 
+                <span class="highlight-pink">말이 조금 빠른 편이라는 단점</span>이 있었고, 이를 인식한 후 의식적으로 고쳐나가고 있어 예전보다 많이 개선되었습니다.
+                <br><br>
+    
+                저는 앞으로도 계속해서 <span class="highlight-blue">성장하고 발전하는 개발자가 되기 위해 노력할 것입니다</span>. 
+                <span class="highlight-blue">팀워크를 중요하게 생각하며, 언제나 긍정적인 에너지로 함께하는 사람들에게 좋은 영향을 주는 사람</span>이 되고 싶습니다.
+            </td>
+        </tr>
+    </table>
+    
+    </body>
+    </html>
